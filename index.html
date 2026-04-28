@@ -99,14 +99,15 @@
     <link rel="manifest" href="image/icons/manifest.json" />
     <!-- icons -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
-  </head>
+  <base target="_blank">
+</head>
   <body>
     <div id="ask" class="container">
       <div>
         <h1 class="header_text">I Love You So So Much!</h1>
       </div>
       <div class="gif_container">
-        <img src="image/ask.gif" alt="Cute animated illustration" />
+        <img src="https://c.tenor.com/qS6vW0jD9QYAAAAC/tenor.gif" alt="Cute animated illustration" />
       </div>
       <div class="buttons">
         <button class="btn" id="yesButton" onclick="nextPage()">
@@ -130,7 +131,7 @@
         <h1 class="header_text">I Want To Be With You Forever!</h1>
       </div>
       <div class="gif_container">
-        <img src="image/ans.gif" alt="Cute animated illustration" />
+        <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" alt="Cute animated illustration" />
       </div>
       <video id="ansvideo" width="0" height="0" controls>
         <source src="image/KidsCheering.mp4" type="video/mp4" />
@@ -151,9 +152,6 @@
     }
 
     function nextPage() {
-      window.open(
-        "https://wa.me/212682993078?text=I%20accept%20%21%21%21%21%21%21"
-      );
       document.getElementById("ans").style.display = "block";
       document.getElementById("ask").style.display = "none";
       document.getElementById("novideo").pause();
